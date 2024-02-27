@@ -242,7 +242,7 @@ nav ul li a:hover::after{
     color: #fff;
     transition: background 0.5s;
 } 
-.btn:hover{
+.btn.btn2:hover{
     background: #ff004f;
 }
 /*---------------contact---------*/
@@ -288,6 +288,10 @@ margin-top: 30px;
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+}
+.btn.btn2:hover {
+    background: #000000; /* change background color on hover */
+    color: #ffffff; /* change text color on hover */
 }
 .contact-right form{
     width: 100%;
